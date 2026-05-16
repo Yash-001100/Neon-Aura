@@ -4,7 +4,7 @@ An interactive, browser-based hand-tracking AR experience. Real-time finger dete
 
 ## Live Demo
 
-Deployed on Railway. Public URL will be added here once the service is up.
+Deployed on Railway, can be accessed using the https://neon-aura-production.up.railway.app/
 
 ## Features
 
