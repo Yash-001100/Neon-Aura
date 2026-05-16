@@ -4,7 +4,7 @@ An interactive, browser-based hand-tracking AR experience. Real-time finger dete
 
 ## Live Demo
 
-https://yash-001100.github.io/Neon-Aura/
+Deployed on Railway. Public URL will be added here once the service is up.
 
 ## Features
 
@@ -57,3 +57,15 @@ Click any theme button at the bottom of the screen to switch the color palette.
 ## Browser Support
 
 Tested on Chrome and Edge. Requires WebRTC (`getUserMedia`) and the Web Audio API. Mobile browsers may work but the UI is designed for desktop.
+
+## Deployment
+
+Deployed on [Railway](https://railway.app/) using a minimal Node static file server (`server.js`). Railway auto-detects the Node project from `package.json` and runs `npm start`, which serves `index.html` over the assigned `$PORT`.
+
+To redeploy from a fresh clone:
+
+```bash
+npm start          # http://localhost:3000
+```
+
+Pushing to the `main` branch on GitHub triggers a new Railway build automatically once the repo is connected.
